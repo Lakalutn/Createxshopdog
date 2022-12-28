@@ -1,0 +1,218 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ol, ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+  background: #F4F5F6;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1275px;
+  padding: 0 15px;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  background: #292C37;
+  z-index: 5;
+}
+
+section {
+  padding: 0px 0px 0px 0px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+/*
+
+  PRESETS
+
+*/
+.btn__gradient {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 8px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn__inset {
+  border-radius: 8px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 20%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #F75E05;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn__inset:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  color: #FFFFFF;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input, button {
+  background-color: transparent;
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  color: rgb(154, 156, 165);
+  padding: 0px 40px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sub__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #1E212C;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #1E212C;
+}
+
+h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* white */
+  color: #FFFFFF;
+}
+
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+
+/*
+
+  PRESETS
+
+*/

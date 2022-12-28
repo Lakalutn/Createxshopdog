@@ -1,0 +1,27 @@
+.whom {
+  padding: 90px 0px;
+}
+.whom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__title {
+  max-width: 492px;
+}
+
+.whom__list {
+  max-width: 473px;
+}
+
+.whom__item {
+  margin-bottom: 20px;
+  color: #424551;
+}
+.whom__item img {
+  margin-right: 15px;
+}

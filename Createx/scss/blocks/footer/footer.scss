@@ -1,0 +1,170 @@
+
+
+
+.footer__top{
+  background: #1E212C;
+  padding: 80px 0px 60px 0px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+  .footer__main{
+    max-width: 280px;
+    margin-right: 80px;
+    img{
+      margin-bottom: 24px;
+    }
+    p{
+      margin-bottom: 38px;
+
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      /* or 18px */
+
+
+      /* white */
+
+      color: #FFFFFF;
+
+      opacity: 0.6;
+    }
+  }
+  .socials__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg{
+      fill: white;
+      opacity: .6;
+      cursor: pointer;
+    }
+    svg:hover{
+      opacity: 1;
+      transition: .4s;
+    }
+  }
+
+  .footer__list{
+    margin-right: 80px;
+    max-width: 140px  ;
+  }
+
+    .footer__item{
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+
+      color: #FFFFFF;
+
+      margin-bottom: 12px;
+
+      display: flex;
+      align-items: center;
+
+      img{
+        margin-right: 8px;
+      }
+    }
+
+.footer__item p:hover{
+  transition: .4s;
+  color: white;
+  cursor: pointer;
+}
+
+
+    .footer__newseller{
+      max-width: 286px;
+
+      form{
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+
+        padding: 9px 14px 9px 12px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+      .newsseler__title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+        margin-bottom: 24px;
+      }
+
+        .newsseler__input{
+          padding: 0px;
+
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 150%;
+          /* identical to box height, or 18px */
+
+
+          /* white */
+
+          color: #FFFFFF;
+
+          opacity: 0.6;
+        }
+
+        .newsseler__btn{
+          background-image: url("/img/footer/arrow.svg");
+          width: 16px;
+          height: 16px;
+          padding: 0px;
+        }
+
+
+
+      .newsseler__descr{
+        margin-top: 12px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        /* or 15px */
+
+        display: flex;
+        align-items: center;
+
+        /* white */
+
+        color: #FFFFFF;
+      }
+
+.footer__bottom{
+  width: 100%;
+  background: #292C37;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+      padding: 0px;
+    }
+  }
+}
+
+

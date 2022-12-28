@@ -1,0 +1,1 @@
+const ROOT__EVENTS = document.getElementById("event__content")

@@ -1,0 +1,16 @@
+@import "../css/normalize.css";
+@import "../fonts/fonts.css";
+@import "../css/blocks/header/header.css";
+@import "../css/blocks/hero/hero.css";
+@import "../css/blocks/certificate/certificate.css";
+@import "../css/blocks/events/events.css";
+@import "../css/blocks/benefits/benefits.css";
+@import "../css/blocks/courses/courses.css";
+@import "../css/blocks/about/about.css";
+@import "../css/blocks/team/team.css";
+@import "../css/blocks/blog/blog.css";
+@import "../css/blocks/sub/sub.css";
+@import "../css/blocks/footer/footer.css";
+@import "../css/blocks/author/author.css";
+@import "../css/blocks/steps/steps.css";
+@import "../css/blocks/whom/whom.css";

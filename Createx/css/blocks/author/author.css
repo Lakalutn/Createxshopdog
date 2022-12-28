@@ -1,0 +1,51 @@
+.author {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.author .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.author .join__soc {
+  text-align: inherit;
+  margin: 0px;
+}
+.author .join__soc .soc__links svg {
+  margin-right: 25px;
+}
+
+.author__right {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.author__block {
+  margin-bottom: 32px;
+}
+.author__block h2 {
+  margin-bottom: 15px;
+}
+
+.author__info {
+  margin-bottom: 32px;
+}
+
+.course__descr {
+  margin-bottom: 40px;
+}

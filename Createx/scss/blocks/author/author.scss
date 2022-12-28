@@ -1,0 +1,41 @@
+.author{
+  padding-top: 100px;
+  padding-bottom: 90px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .join__soc{
+    text-align: inherit;
+    margin: 0px;
+    .soc__links{
+      svg{
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+  .author__right{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .author__block{
+    margin-bottom: 32px;
+    h2{
+      margin-bottom: 15px;
+    }
+  }
+
+  .author__info{
+    margin-bottom: 32px;
+  }
+
+  .course__descr{
+    margin-bottom: 40px;
+  }

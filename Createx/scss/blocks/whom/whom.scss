@@ -1,0 +1,24 @@
+.whom{
+  padding: 90px 0px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.section__title{
+  max-width: 492px;
+}
+
+  .whom__list{
+    max-width: 473px;
+
+  }
+
+  .whom__item{
+    margin-bottom: 20px;
+    color: #424551;
+    img{
+      margin-right: 15px;
+    }
+  }

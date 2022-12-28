@@ -1,0 +1,92 @@
+.hero{
+  padding: 220px 0px 80px 0px;
+
+  background-image: url(/img/hero/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main{
+
+}
+
+.hero__img{
+  max-width: 602px;
+}
+  .hero__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 190px;
+  }
+    .hero__title{
+      margin-bottom: 60px;
+    }
+    .info{
+      margin-right: 22px;
+    }
+
+
+    .hero__footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+      .count__block{
+        display: flex;
+        align-items: center;
+      }
+        .count{
+          margin-right: 12px;
+        }
+
+        .dot{
+          display: block;
+          border-radius: 50%;
+          width: 8px;
+          height: 8px;
+
+          background: #FF3F3A;
+        }
+
+
+        .showreel{
+          display: flex;
+        }
+
+        .play__showreel{
+          padding: 0px;
+          color: #1E212C;
+        }
+
+
+
+        .hero.course{
+          padding-top: 192px;
+          padding-bottom: 120px;
+          text-align: center;
+          background-position: bottom;
+
+          .sub__title{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            /* identical to box height, or 24px */
+
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            /* primary */
+
+            color: #FF3F3A;
+
+            margin-bottom: 12px;
+          }
+          .title{
+
+          }
+        }

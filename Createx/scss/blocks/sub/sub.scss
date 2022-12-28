@@ -1,0 +1,169 @@
+.sub{
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  background: #FDDDCF;
+  padding: 120px 0px 180px 0px;
+  text-align: center;
+  justify-content: center;
+  form{
+    text-align: unset;
+    display: flex;
+    max-width: 650px;
+  }
+  input{
+    background: #FFFFFF;
+
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    margin-right: 24px;
+    padding: 13px 0px 13px 16px;
+    width: 100%;
+  }
+  ::placeholder{
+    color: #9A9CA5;
+  }
+  position: relative;
+}
+
+.sub::before{
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  right: 0px;
+  width: 355px;
+  height: 250px;
+  background-repeat: no-repeat;
+
+  background-image: url("/img/sub/sub.svg");
+}
+
+.sub::after{
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 0px;
+  width: 355px;
+  height: 250px;
+  z-index: 1;
+  background-repeat: no-repeat;
+
+  background-image: url("/img/sub/sub.svg");
+}
+
+.sub__btn{
+
+}
+
+.subscribe__title {
+  margin-bottom: 60px;
+}
+
+
+
+.sub__course{
+  background: #F4F5F6;
+  padding: 90px 0px 50px 0px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sub__right{
+    max-width: 495px;
+    width: 100%;
+  }
+
+
+  .sub__form-title{
+    margin-bottom: 40px;
+  }
+
+  form{
+
+    .full_name{
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      label{
+        margin-bottom: 8px;
+      }
+      input{
+        background: #FFFFFF;
+
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding: 13px 0px 13px 16px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+
+
+        /* gray/600 */
+
+        color: #9A9CA5;
+      }
+    }
+    .phone{
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      label{
+        margin-bottom: 8px;
+      }
+      input{
+        background: #FFFFFF;
+
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+
+        padding: 13px 0px 13px 16px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+
+
+        /* gray/600 */
+
+        color: #9A9CA5;
+      }
+    }
+    .email{
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      label{
+        margin-bottom: 8px;
+      }
+      input{
+        background: #FFFFFF;
+
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding: 13px 0px 13px 16px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+
+
+        /* gray/600 */
+
+        color: #9A9CA5;
+      }
+    }
+  }
+}
+
+
